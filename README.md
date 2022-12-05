@@ -7,14 +7,20 @@ Good game ;)
 
 Play Controls : 
 
-Sub Zero :                                 Kano : 
+Sub Zero :                                 
+a : backup  
+d : forward 
+r : punch                    
+e : kick
+t : iceball
+f : friendship 
 
-a : backup                                 <- : forward 
-d : forward                                -> : backup
-r : punch                                   i : punch                       
-e : kick                                    o : kick
-t : iceball                                 p : fireball
-f : friendship                              u : babality 
-
+Kano : 
+<- : forward 
+-> : backup
+i : punch                       
+o : kick
+p : fireball
+u : babality 
 
 Made by Cyrielle Ndongo et Rayane Malik
