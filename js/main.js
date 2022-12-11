@@ -86,40 +86,40 @@ let babalityMode = new Image();
 let finishMode = new Image();
 let friendMode = new Image();
 
-let audio = new Audio('/src/assets/sons/Finish.mp3'); // finish music
-let audio2 = new Audio('/src/assets/sons/babality.mp3'); // babality music
-let audio3 = new Audio('/src/assets/sons/Friendship.mp3'); // friendship msic
-let audio4 = new Audio('/src/assets/sons/CDP.mp3'); // Coup de poing music 
-let audio5 = new Audio('/src/assets/sons/CDPI.mp3'); // coup de pied music
-let audio6 = new Audio('/src/assets/sons/iceBall.mp3'); // iceball subzero music
-let audio7 = new Audio('/src/assets/sons/fireBall.mp3'); // fireBall kano music
+let audio = new Audio('./src/assets/sons/Finish.mp3'); // finish music
+let audio2 = new Audio('./src/assets/sons/babality.mp3'); // babality music
+let audio3 = new Audio('./src/assets/sons/Friendship.mp3'); // friendship msic
+let audio4 = new Audio('./src/assets/sons/CDP.mp3'); // Coup de poing music 
+let audio5 = new Audio('./src/assets/sons/CDPI.mp3'); // coup de pied music
+let audio6 = new Audio('./src/assets/sons/iceBall.mp3'); // iceball subzero music
+let audio7 = new Audio('./src/assets/sons/fireBall.mp3'); // fireBall kano music
 
 
 //Source des images
-subHurt.src = "src/assets/SubZero/Sub_hurt.png"
-subIdle.src = "src/assets/SubZero/Sub_idle.png";
-subKameha.src = "src/assets/SubZero/Sub_Kameha.png"
-subKick.src = "src/assets/SubZero/Sub_kick.png"
-subOneTwo.src = "src/assets/SubZero/Sub_OneTwo.png"
-subRun.src = "src/assets/SubZero/Sub_Run.png"
-subWalking.src = "src/assets/SubZero/Sub_Walk.png";
-subDead.src = "src/assets/SubZero/dead.png"
-subFriend.src = "src/assets/SubZero/friendship.png"
+subHurt.src = "./src/assets/SubZero/Sub_hurt.png"
+subIdle.src = "./src/assets/SubZero/Sub_idle.png";
+subKameha.src = "./src/assets/SubZero/Sub_Kameha.png"
+subKick.src = "./src/assets/SubZero/Sub_kick.png"
+subOneTwo.src = "./src/assets/SubZero/Sub_OneTwo.png"
+subRun.src = "./src/assets/SubZero/Sub_Run.png"
+subWalking.src = "./src/assets/SubZero/Sub_Walk.png";
+subDead.src = "./src/assets/SubZero/dead.png"
+subFriend.src = "./src/assets/SubZero/friendship.png"
 
-kanoHurt.src = "src/assets/Kano/hurt.png";
-kanoIdle.src = "src/assets/Kano/idle.png";
-kanoKameha.src = "src/assets/Kano/kamehameha.png";
-kanoFreezed.src = "src/assets/Kano/Kano_freezed.png";
-kanoKick.src = "src/assets/Kano/kick.png";
-kanoOneTwo.src = "src/assets/Kano/OneTwo.png";
-kanoRun.src = "src/assets/Kano/run.png";
-kanoWalking.src = "src/assets/Kano/walking-sheet.png";
-kanoDead.src = "src/assets/Kano/dead.png"
-kanoBaby.src = "src/assets/Kano/baby.png"
+kanoHurt.src = "./src/assets/Kano/hurt.png";
+kanoIdle.src = "./src/assets/Kano/idle.png";
+kanoKameha.src = "./src/assets/Kano/kamehameha.png";
+kanoFreezed.src = "./src/assets/Kano/Kano_freezed.png";
+kanoKick.src = "./src/assets/Kano/kick.png";
+kanoOneTwo.src = "./src/assets/Kano/OneTwo.png";
+kanoRun.src = "./src/assets/Kano/run.png";
+kanoWalking.src = "./src/assets/Kano/walking-sheet.png";
+kanoDead.src = "./src/assets/Kano/dead.png"
+kanoBaby.src = "./src/assets/Kano/baby.png"
 
-babalityMode.src = "/src/assets/images/babality.png"
-finishMode.src = "/src/assets/images/finish.png"
-friendMode.src = "/src/assets/images/friendship.png"
+babalityMode.src = "./src/assets/images/babality.png"
+finishMode.src = "./src/assets/images/finish.png"
+friendMode.src = "./src/assets/images/friendship.png"
 
 
 window.addEventListener('keydown', keyDownListener);
